@@ -1,6 +1,7 @@
 # ChargeSight Siting Memo - Manhattan
+https://github.com/user-attachments/assets/48c9f929-b3fa-4054-b132-1e0110918af9
 
-Uploading brag.mp4…
+
 
 ## Executive summary
 
