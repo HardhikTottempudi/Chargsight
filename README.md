@@ -1,5 +1,6 @@
 # ChargeSight Siting Memo - Manhattan
-*Generated 2026-11-04 - swarm-intelligent siting of EV charging networks*
+
+Uploading brag.mp4…
 
 ## Executive summary
 
