@@ -1,0 +1,44 @@
+{
+  "city": "manhattan",
+  "n_stations": 12,
+  "objective": 11090450.64,
+  "coverage": 0.4425167863116532,
+  "capex": 2700000.0,
+  "ports": 35,
+  "sites": 12,
+  "utilization": 0.8776793650793652,
+  "ebitda": 2010046.0700000003,
+  "payback_years": 1.343252794200881,
+  "ev_miles_per_year": 33637061.66666667,
+  "co2_tons_per_year": 10679.767079166668,
+  "evals": 24562,
+  "restarts": 17,
+  "runtime_s": 14.57002329826355,
+  "gini": 0.1119047619047618,
+  "mean_walk_m": 266.84317349126445,
+  "uplift_vs_chargesight_hybrid_(pso_+_refinement)": {
+    "extra_ebitda_per_year": 0.0,
+    "extra_coverage": 0.0,
+    "extra_served_kwh_day": 0.0
+  },
+  "uplift_vs_greedy_coverage": {
+    "extra_ebitda_per_year": 126936.65000000037,
+    "extra_coverage": 0.026497963234176025,
+    "extra_served_kwh_day": 1655.5
+  },
+  "uplift_vs_k-means_clusters": {
+    "extra_ebitda_per_year": 1202039.8800000004,
+    "extra_coverage": 0.2599313341816524,
+    "extra_served_kwh_day": 16239.600000000004
+  },
+  "uplift_vs_even_spread": {
+    "extra_ebitda_per_year": 1621768.1400000004,
+    "extra_coverage": 0.35555448848767135,
+    "extra_served_kwh_day": 22213.800000000003
+  },
+  "uplift_vs_random_siting": {
+    "extra_ebitda_per_year": 1407776.5900000003,
+    "extra_coverage": 0.3069202019959505,
+    "extra_served_kwh_day": 19175.300000000003
+  }
+}

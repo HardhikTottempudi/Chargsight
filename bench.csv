@@ -1,0 +1,6 @@
+plan,coverage,capex,ports,sites,utilization,ebitda,payback_years,total_cost
+"ChargeSight hybrid (PSO + refinement)",0.4425,2700000,35,12,0.8777,2010046,1.34,11090451
+"Greedy coverage",0.4160,2640000,34,12,0.8494,1883109,1.40,11429261
+"K-means clusters",0.1826,1530000,18,9,0.7042,808006,1.89,13832570
+"Even spread",0.0870,780000,8,6,0.7546,388278,2.01,14521755
+"Random siting",0.1356,1180000,13,8,0.7241,602269,1.96,14189780

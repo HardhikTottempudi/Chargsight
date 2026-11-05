@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chargesight"
+version = "0.1.0"
+description = "Swarm-intelligent siting of EV charging networks: hybrid adaptive PSO + discrete refinement, with investor-grade economics and benchmarks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "ChargeSight" }]
+keywords = ["particle-swarm-optimization", "ev-charging", "facility-location", "optimization", "pso"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "Pillow>=9.0",
+]
+
+[project.scripts]
+chargesight = "chargesight.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"chargesight.data" = ["*.json"]
